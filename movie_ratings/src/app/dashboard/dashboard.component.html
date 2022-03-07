@@ -1,0 +1,32 @@
+<mat-tab-group mat-align-tabs="center">
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="example-tab-icon" style="margin-right: 0.5rem">
+        group_add
+      </mat-icon>
+      Users
+    </ng-template>
+    <app-users></app-users>
+  </mat-tab>
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="example-tab-icon" style="margin-right: 0.5rem">
+        movie
+      </mat-icon>
+      Movies
+    </ng-template>
+    <app-movies></app-movies>
+  </mat-tab>
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="example-tab-icon" style="margin-right: 0.5rem">
+        work
+      </mat-icon>
+      Departments
+    </ng-template>
+
+    <app-departments></app-departments>
+  </mat-tab>
+</mat-tab-group>
